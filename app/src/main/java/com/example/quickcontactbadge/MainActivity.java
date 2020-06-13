@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         contact = (QuickContactBadge)findViewById(R.id.contact);
 
         email.assignContactFromEmail("eddie@gmail.com", true);
-        
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
             Bundle bundle = new Bundle();
